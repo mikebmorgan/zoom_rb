@@ -60,6 +60,7 @@ module Zoom
             client: self, method: method, parsed_path: parsed_path,
             params: params, request_options: request_options, oauth: oauth
           })
+          byebug
           Utils.parse_response(response)
         end
       end
