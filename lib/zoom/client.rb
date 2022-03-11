@@ -22,7 +22,7 @@ module Zoom
     include Actions::IM::Chat
     include Actions::IM::Group
 
-    base_uri 'https://api.zoom.us/v2'
+    base_uri 'http://api.zoom.us/v2'
     headers 'Accept' => 'application/json'
     headers 'Content-Type' => 'application/json'
 
