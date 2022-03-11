@@ -33,6 +33,7 @@ module Zoom
 
       def extract_options!(array)
         params = array.last.is_a?(::Hash) ? array.pop : {}
+        byebug
         process_datetime_params!(params)
       end
 
